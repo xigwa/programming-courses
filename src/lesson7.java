@@ -82,7 +82,7 @@ public class lesson7 {
         }
         return sum;
     }
-    // Перевірити, чи є усі елементи головної діагоналі масиву додатним
+    // Перевірити, чи є усі елементи головної діагоналі масиву додатним.
     public static boolean task6(int[][] ar) {
         for (int i = 0; i < ar.length; i++) {
             if (ar[i][i] <= 0)
