@@ -1,25 +1,21 @@
 package lesson8;
 
+import java.util.ArrayList;
+
 public class Student {
     String name;
     int id;
     int age;
-    int numberOfGrades;
-    Grade[] grades;
+    ArrayList<Grade> grades;
 
     public Student(String name, int id, int age) {
         this.name = name;
         this.id = id;
         this.age = age;
-        this.grades = new Grade[10]; // Ініціалізуємо масив для оцінок з розміром 10
+        this.grades = new ArrayList<>(); // Initialize ArrayList for grades
     }
 
     public void addGrade(Grade grade) {
-        if (numberOfGrades < grades.length) {
-            grades[numberOfGrades] = grade;
-            numberOfGrades++;
-        } else {
-            System.out.println("The grade list is full for student: " + name);
-        }
+        grades.add(grade);
     }
 }

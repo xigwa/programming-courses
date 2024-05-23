@@ -10,5 +10,4 @@ public class Grade {
         this.student = student;
         this.grade = grade;
     }
-
 }
