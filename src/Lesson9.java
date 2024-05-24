@@ -12,12 +12,6 @@ public class Lesson9 {
         arr.add(12);
         arr.add(-3);
         arr.add(46);
-//        System.out.println(findMaxElement(arr));
-//        System.out.println(getUniqueElements(arr));
-//        Map<Integer, Integer> frequencyMap = countFrequency(arr);
-//        System.out.println("Частота появи елементів:");
-//        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet())
-//            System.out.println(entry.getKey() + ": " + entry.getValue());
         String text = "Це приклад тексту текст може бути будь-яким текст";
         Map<String, Integer> wordFrequency = countWordFrequency(text);
         System.out.println("Частота кожного слова:");
