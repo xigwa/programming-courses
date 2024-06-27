@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lesson1 {
+public class L1MakeCoffee {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Скільки цукру додати?");
