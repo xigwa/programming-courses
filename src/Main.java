@@ -6,10 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 //        Сalculator сalculator = new Сalculator();
-//        SwingUtilities.invokeLater(() -> {
-//            Paint frame = new Paint();
-//            frame.setVisible(true);
-//        });
-        Notes notes = new Notes();
+//        Paint paint = new Paint();
+//        Notes notes = new Notes();
+        PrivacyPolicyWindow privacyPolicyWindow = new PrivacyPolicyWindow();
     }
+
 }

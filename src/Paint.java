@@ -87,6 +87,7 @@ public class Paint extends JFrame {
         toolBar.add(jColorChooser);
 
         add(toolBar, BorderLayout.NORTH);
+        setVisible(true);
     }
 
 }
