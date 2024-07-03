@@ -16,6 +16,8 @@ public class PrivacyPolicyWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         setResizable(false);
+        ImageIcon icon = new ImageIcon("D:\\IntelliJ IDEA (Projekts)\\programming courses\\src\\Image\\jetbrains-logo.jpg");
+        setIconImage(icon.getImage());
 
         policyText = new JTextArea();
         policyText.setText("Політика конфіденційності JetBrains\n" +
