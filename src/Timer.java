@@ -36,6 +36,7 @@ public class Timer extends JFrame {
                 isRunning = !isRunning;
             }
         });
+
         add(startStopButton);
 
         JButton resetButton = new JButton("Reset");
