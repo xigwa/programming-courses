@@ -16,12 +16,6 @@ public class University {
         faculties.add(faculty);
     }
 
-    public void universityInfo() {
-        System.out.println("University: " + name);
-        for (Faculty faculty : faculties)
-            faculty.facultyInfo();
-    }
-
     public void displayAllInfo() {
         System.out.println("University: " + name);
         for (Faculty faculty : faculties) {
@@ -32,17 +26,6 @@ public class University {
                     System.out.println("      Course: " + course);
             }
         }
-    }
-    public List<Faculty> getFaculties() {
-        return faculties;
-    }
-
-    public Faculty getFacultyByName(String name) {
-        for (Faculty faculty : faculties) {
-            if (faculty.getName().equals(name))
-                return faculty;
-        }
-        return null;
     }
 
     public class Faculty {
@@ -58,23 +41,9 @@ public class University {
             departments.add(department);
         }
 
-        public void facultyInfo() {
-            System.out.println("  Faculty: " + name);
-            for (Department department : departments)
-                department.departmentInfo();
-        }
         public List<Department> getDepartments() {
             return departments;
         }
-
-        public Department getDepartmentByName(String name) {
-            for (Department department : departments) {
-                if (department.getName().equals(name))
-                    return department;
-            }
-            return null;
-        }
-
         public String getName() {
             return name;
         }
@@ -92,11 +61,6 @@ public class University {
                 courses.add(course);
             }
 
-            public void departmentInfo() {
-                System.out.println("    Department: " + name);
-                for (String course : courses)
-                    System.out.println("      Course: " + course);
-            }
             public List<String> getCourses() {
                 return courses;
             }
