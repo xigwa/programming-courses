@@ -1,9 +1,9 @@
 public class lesson6 {
     public static void main(String[] args) {
         int[] arr = {12,213,23,3,5,7,2,6};
-        //task1(48, 18);
-        //task2(123, 4);
-        //task3(1);
+        task1(48, 18);
+        task2(123, 4);
+        task3(1);
         task4(arr);
     }
 
