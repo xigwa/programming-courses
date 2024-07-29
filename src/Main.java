@@ -3,7 +3,6 @@ public class Main {
     static String sign = "";
 
     public static void main(String[] args) {
-        Timer timer = new Timer();
 
     }
 }
